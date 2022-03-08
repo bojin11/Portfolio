@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to bottom, #f8b195, #6c5b7b);
+  background-size: 100% 100%;
+  font-family: "Quicksand", sans-serif;
+  margin: 0 auto;
+  color: #ffffff;
+  height: 100%;
+}
+
+#heading {
+  padding: 10px 0px 0px 0px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 6.5rem;
+  color: #ffffff;
+}
+
+#tagline {
+  padding: 0px 0px 50px 0px;
+  font-family: "Staatliches", cursive;
+  font-size: 1.9rem;
+  color: #ffffff;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 650px;
+  margin: 0 auto;
+  padding-bottom: 45px;
+  font-size: 1rem;
+}
+
+#description {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ebebeb;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  margin: 0px 1px;
+  padding: 8px 10px 0px 10px;
+  margin-top: 30px;
+}
+
+.row {
+  justify-content: space-evenly;
+}
+
+.card:hover {
+  box-shadow: 2px 3px 5px rgb(205, 205, 205);
+  transition: all 0.2s ease-out;
+  top: -4px;
+}
+
+.card-link {
+  color: black;
+  text-decoration: underline;
+  padding-bottom: 5px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+i {
+  padding-top: 15px;
+}
+
+input {
+  padding: 3px;
+  margin: 3px;
+}
+
+.pages-heading {
+  font-size: 4.5rem;
+  text-align: center;
+  font-family: "Staatliches", cursive;
+  margin-top: 40px;
+}
+
+.subheading {
+  padding: 25px 0px 5px 0px;
+  font-size: 1.3rem;
+}
+
+.container {
+  height: 100vh;
+}
+
+.homepage-container {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(34, 32, 32, 0.65),
+      rgba(68, 65, 65, 0.65)
+    ),
+    url("https://www.timeshighereducation.com/sites/default/files/Pictures/web/j/s/i/paint-brushes-arranged-on-painted-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  height: 100vh;
+}
+
+.about-container {
+  background-image: linear-gradient(to bottom, #f8b195, #6c5b7b);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: -40px;
+  height: 100vh;
+}
+
+.works-container {
+  background-image: linear-gradient(to bottom, #f8b195, #6c5b7b);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: -40px;
+  height: 100vh;
+}
+
+i {
+  font-size: 1.8rem;
+  margin: 0px 15px;
+  margin-bottom: 20px;
+  padding-top: 14px;
+}
+
+i:hover {
+  color: #ebebeb96;
+}
