@@ -40,17 +40,6 @@ const Works = () => {
                     path={"/works"}
                     render={() => <div className="row">{renderWorks}</div>}
                 />
-                <Route
-                    path={"/works/:id"}
-                    render={({ match }) => (
-                        <div className="row">
-                            <WorkCards
-                                work={work[match.params.id]}
-                                handleSelect={() => {}}
-                            />
-                        </div>
-                    )}
-                />
             </Switch>
         </main>
     );

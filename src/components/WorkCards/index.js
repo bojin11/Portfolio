@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { LikeButton } from "../";
 
 const WorkCards = ({ work, handleSelect }) => {
     const [linkColor, setLinkColor] = useState("blue");
@@ -16,7 +15,7 @@ const WorkCards = ({ work, handleSelect }) => {
 
     return (
         <div className="card col-3">
-            <img src={work.cover} className="card-img-top" alt="Work Cover" onClick={() => handleSelect(work.id)}/>
+            <img src={work.cover} className="card-img-top" alt="Work" />
             <div className="card-body">
                 <h3 className="card-title">{work.name}</h3>
                 <p>{work.description}</p>
