@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Route, Switch, useHistory, useParams } from 'react-router-dom';
 import { WorkCards } from "../../components";
+import { ReactComponent as image1 } from '../../images/pythonpuff-girls.png';
+import { ReactComponent as image2 } from '../../images/better-work.png';
 
 const Works = () => {
     const [work, setWork] = useState([
