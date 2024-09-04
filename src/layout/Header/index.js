@@ -14,9 +14,9 @@ const Header = () => {
             <NavLink exact to="/about" activeClassName="current">
                 About
             </NavLink>
-            <NavLink exact to="/works" activeClassName="current">
+            {/* <NavLink exact to="/works" activeClassName="current">
                 Works
-            </NavLink>
+            </NavLink> */}
         </nav>
     );
 };
